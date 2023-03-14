@@ -12,9 +12,12 @@ It will then collect some basic information from your Exchange environment, crea
 
 # Examples
 
-(From Powershell)
+(From Powershell),
+
 Add-PssSnapin *Exchange*
+
 SL C:\Certificates
+
 .\Generate-CSR.ps1
 
 Once run navigate to the c:\Certificates folder and open the .req file (then complete through your CA/PKI team)
